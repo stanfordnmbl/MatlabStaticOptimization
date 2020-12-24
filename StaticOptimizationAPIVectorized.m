@@ -350,7 +350,6 @@ for i = 1:nCoords
 end
 
 % % Get Inverse Dynamics Moments from File
-% Get coordinates storage from IK file
 idSto=Storage(idFilePath);
 idLabels = idSto.getColumnLabels();
 % Get the Time stamps and Coordinate values
@@ -406,6 +405,7 @@ else
     actuatorPrescribed_inds_ML = [] ;
 end
 actuatorsForIDmatching = find(xor(ones(1,nFreeCoords), ismember(1:nFreeCoords,actuatorPrescribed_inds_ML))) ; % These are the moments that the optimizer will try to match
+
 
 % % Compute EMG ratio parameters
     coeffRatioInds = [] ;
@@ -555,7 +555,11 @@ jointRxn.print([outputFilePath 'JrxnSetup.xml']) ;
 % Find start and end rows
 [~, startRow_ML] = min(abs(timeIK_ML-startTime)) ;
 [~, endRow_ML] = min(abs(endTime-timeIK_ML)) ;
-nTimeSteps = endRow_ML-startRow_ML + 1 ; % Number of iterations through the time loop
+timeVec_sim = timeIK_ML(startRow_ML:endRow_ML) ;
+nTimeSteps = length(timeVec_sim) ; % Number of iterations through the time loop
+
+% Sync ID moments matrix to match this time range
+momentsID_sim = interp1(timeID_ML,momentsID,timeVec_sim) ;
 
 % Set up optimizer parameters that don't change with each timestep
     % Set initial coefficients. Muscle activations, then reserve actuator
@@ -683,7 +687,7 @@ for tInd_ML = 1:nTimeSteps ; % counter is Matlab indexing
     params.stateVector_ML = stateVector_ML; 
     params.stateVectorY = state.getY ;
     params.controls = controlVec ;
-    params.moments_ID = momentsID(rowInd_ML,:) ;
+    params.moments_ID = momentsID_sim(tInd_ML,:) ;
     
     % Compute fixed muscle parameters (moment arms, active force
     % multipliers, etc.)

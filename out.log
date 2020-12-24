@@ -1,10 +1,58 @@
-Loaded model ArmlessApoorva_scaled from file W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\TestData\Rajagopal_scaled_sub1_gasAvoid.osim
-Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\TestData\\walking_baseline1_forces.mot (nr=121120 nc=19)
+Loaded model ArmlessApoorva_scaled from file W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\TestData\Rajagopal_scaled_sub1_gasAvoid.osim
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Loaded model ArmlessApoorva_scaled from file W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\Rajagopal_scaled_sub1_gasAvoid.osim
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\walking_baseline1_forces.mot (nr=121120 nc=19)
 ExternalForce::GRF_r
 Data source being set to walking_baseline1_forces.mot
 ExternalForce::GRF_l
 Data source being set to walking_baseline1_forces.mot
-Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\TestData\\results_ik.sto (nr=3028 nc=26)
-Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\TestData\\results_id.sto (nr=3028 nc=26)
-Loaded model subject_scale_walk-scaled from file W:\OA_GaitRetraining\OpenPoseTesting\OpenSim\Models\RajagopalBaseModel\MocapBasedOpenPose\S155testing\Rajagopal_scaled_contact.osim
-Adding reserve actuators with an optimal force of 250...
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\results_ik.sto (nr=3028 nc=26)
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\results_id.sto (nr=3028 nc=26)
+Loaded model Rajagopal_scaled from file W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\Rajagopal_scaled_sub1_gasAvoid.osim
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\walking_baseline1_forces.mot (nr=121120 nc=19)
+ExternalForce::GRF_r
+Data source being set to walking_baseline1_forces.mot
+ExternalForce::GRF_l
+Data source being set to walking_baseline1_forces.mot
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\results_ik.sto (nr=3028 nc=26)
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\results_id.sto (nr=3028 nc=26)
+Loaded model Rajagopal_scaled from file W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\Rajagopal_scaled_sub1_gasAvoid.osim
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\walking_baseline1_forces.mot (nr=121120 nc=19)
+ExternalForce::GRF_r
+Data source being set to walking_baseline1_forces.mot
+ExternalForce::GRF_l
+Data source being set to walking_baseline1_forces.mot
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\results_ik.sto (nr=3028 nc=26)
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\results_id.sto (nr=3028 nc=26)
+Loaded model Rajagopal_scaled from file W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\Rajagopal_scaled_sub1_gasAvoid.osim
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\walking_baseline1_forces.mot (nr=121120 nc=19)
+ExternalForce::GRF_r
+Data source being set to walking_baseline1_forces.mot
+ExternalForce::GRF_l
+Data source being set to walking_baseline1_forces.mot
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\results_ik.sto (nr=3028 nc=26)
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\results_id.sto (nr=3028 nc=26)
+Loaded model Rajagopal_scaled from file W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\Rajagopal_scaled_sub1_gasAvoid.osim
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\walking_baseline1_forces.mot (nr=121120 nc=19)
+ExternalForce::GRF_r
+Data source being set to walking_baseline1_forces.mot
+ExternalForce::GRF_l
+Data source being set to walking_baseline1_forces.mot
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\results_ik.sto (nr=3028 nc=26)
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\results_id.sto (nr=3028 nc=26)
+Loaded model Rajagopal_scaled from file W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\Rajagopal_scaled_sub1_gasAvoid.osim
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\walking_baseline1_forces.mot (nr=121120 nc=19)
+ExternalForce::GRF_r
+Data source being set to walking_baseline1_forces.mot
+ExternalForce::GRF_l
+Data source being set to walking_baseline1_forces.mot
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\results_ik.sto (nr=3028 nc=26)
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github2\TestData\\results_id.sto (nr=3028 nc=26)
