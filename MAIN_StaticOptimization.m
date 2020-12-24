@@ -5,11 +5,11 @@
 function [] = MAIN_StaticOptimizationAPI()
 % This main loop allows you to run StaticOptimizationAPI.m
 
-clear all; close all; format compact ; clc ; fclose all ;
+clear all; close all; format compact; clc; fclose all;
 
 % % YOU JUST NEED TO CHANGE THIS baseDir VARIABLE TO POINT TO THE TestData folder
 % % WHEREVER YOU UNZIPPED THE FOLDER, then run code
-baseDir = 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\TestData\' ; % Base Directory
+baseDir = 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\TestData\' ; % Base Directory
 
 % % % Fill Path names
 INPUTS.trialname = 'walking_baseline1' ;
