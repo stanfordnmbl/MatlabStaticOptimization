@@ -1,0 +1,44 @@
+
+
+Beginning Optimization for walking_baseline1 from 10.90 to 11.70 seconds. 
+
+Loaded model ArmlessApoorva_scaled from file W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\TestData\Rajagopal_scaled_sub1_gasAvoid.osim
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\TestData\\walking_baseline1_forces.mot (nr=121120 nc=19)
+ExternalForce::GRF_r
+Data source being set to walking_baseline1_forces.mot
+ExternalForce::GRF_l
+Data source being set to walking_baseline1_forces.mot
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\TestData\\results_ik.sto (nr=3028 nc=26)
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\TestData\\results_id.sto (nr=3028 nc=26)
+
+Optimizing t=10.900s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.555167e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   9.16e-14                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.56e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 2.5625s. Exitflag was 2.
+
+Optimizing t=10.920s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 3.764416e-17, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   2.25e-14                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   3.76e-17   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.79075s. Exitflag was 2.
+
+Optimizing t=10.940s
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getMuscleParams', 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\getMuscleParams.m', 47)" style="font-weight:bold">getMuscleParams</a> (<a href="matlab: opentoline('W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\getMuscleParams.m',47,0)">line 47</a>)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('StaticOptimizationAPIVectorized', 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\StaticOptimizationAPIVectorized.m', 690)" style="font-weight:bold">StaticOptimizationAPIVectorized</a> (<a href="matlab: opentoline('W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\StaticOptimizationAPIVectorized.m',690,0)">line 690</a>)
+    params.muscParams = getMuscleParams(params,coeffs_lastStep) ;
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MAIN_StaticOptimizationAPIVectorized', 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\MAIN_StaticOptimizationAPIVectorized.m', 106)" style="font-weight:bold">MAIN_StaticOptimizationAPIVectorized</a> (<a href="matlab: opentoline('W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\forZipping\MAIN_StaticOptimizationAPIVectorized.m',106,0)">line 106</a>)
+StaticOptimizationAPIVectorized(INPUTS) ; % Run StaticOptimiz
