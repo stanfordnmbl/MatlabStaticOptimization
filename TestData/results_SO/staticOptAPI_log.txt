@@ -51,4 +51,550 @@ Optimizing t=10.960s
 
 Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
 less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
-violation, 1.683820e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">o
+violation, 1.683820e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   4.09e-14                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.68e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.75628s. Exitflag was 2.
+
+Optimizing t=10.980s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 6.026886e-15, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   1.00e-15                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   6.03e-15   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.7806s. Exitflag was 2.
+
+Optimizing t=11.000s
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getMuscleParams', 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\Utilities\getMuscleParams.m', 47)" style="font-weight:bold">getMuscleParams</a> (<a href="matlab: opentoline('W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\Utilities\getMuscleParams.m',47,0)">line 47</a>)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('StaticOptimizationAPIVectorized', 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\Utilities\StaticOptimizationAPIVectorized.m', 696)" style="font-weight:bold">StaticOptimizationAPIVectorized</a> (<a href="matlab: opentoline('W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\Utilities\StaticOptimizationAPIVectorized.m',696,0)">line 696</a>)
+    params.muscParams = getMuscleParams(params,coeffs_lastStep) ;
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MAIN_StaticOptimization', 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\MAIN_StaticOptimization.m', 107)" style="font-weight:bold">MAIN_StaticOptimization</a> (<a href="matlab: opentoline('W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\MAIN_StaticOptimization.m',107,0)">line 107</a>)
+StaticOptimizationAPIVectorized(INPUTS) ; % Run StaticOptimizationAPI} 
+!git config --global user.email "suhlrich@stanford.edu" 
+!git config --global user.name "Scott Uhlrich"
+MAIN_StaticOptimization
+[Warning: The file
+'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\MAIN_StaticOptimization.m'
+could not be cleared because it contains MATLAB code that is currently executing.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MAIN_StaticOptimization', 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\MAIN_StaticOptimization.m', 8)" style="font-weight:bold">MAIN_StaticOptimization</a> (<a href="matlab: opentoline('W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\MAIN_StaticOptimization.m',8,0)">line 8</a>)] 
+[Warning: The file
+'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\MAIN_StaticOptimization.m'
+could not be cleared because it contains MATLAB code that is currently executing.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MAIN_StaticOptimization', 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\MAIN_StaticOptimization.m', 8)" style="font-weight:bold">MAIN_StaticOptimization</a> (<a href="matlab: opentoline('W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\MAIN_StaticOptimization.m',8,0)">line 8</a>)] 
+[Warning: The file
+'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\MAIN_StaticOptimization.m'
+could not be cleared because it contains MATLAB code that is currently executing.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('MAIN_StaticOptimization', 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\MAIN_StaticOptimization.m', 8)" style="font-weight:bold">MAIN_StaticOptimization</a> (<a href="matlab: opentoline('W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\MAIN_StaticOptimization.m',8,0)">line 8</a>)] 
+
+
+Beginning Optimization for walking_baseline1 from 10.90 to 11.70 seconds. 
+
+Loaded model Rajagopal_scaled from file W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\TestData\Rajagopal_scaled_sub1_gasAvoid.osim
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\TestData\\walking_baseline1_forces.mot (nr=121120 nc=19)
+ExternalForce::GRF_r
+Data source being set to walking_baseline1_forces.mot
+ExternalForce::GRF_l
+Data source being set to walking_baseline1_forces.mot
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\TestData\\results_ik.sto (nr=3028 nc=26)
+Storage: read data file =W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\TestData\\results_id.sto (nr=3028 nc=26)
+
+Optimizing t=10.900s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.555167e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   9.16e-14                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.56e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 1.5622s. Exitflag was 2.
+
+Optimizing t=10.920s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 3.764416e-17, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   2.25e-14                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   3.76e-17   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.77838s. Exitflag was 2.
+
+Optimizing t=10.940s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 2.788974e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   3.86e-15                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   2.79e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.82923s. Exitflag was 2.
+
+Optimizing t=10.960s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.683820e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   4.09e-14                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.68e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.80427s. Exitflag was 2.
+
+Optimizing t=10.980s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 6.026886e-15, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   1.00e-15                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   6.03e-15   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.78349s. Exitflag was 2.
+
+Optimizing t=11.000s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 6.039000e-17, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   4.83e-14                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   6.04e-17   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.878s. Exitflag was 2.
+
+Optimizing t=11.020s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 9.182221e-17, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   3.47e-13                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   9.18e-17   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.70464s. Exitflag was 2.
+
+Optimizing t=11.040s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 7.353208e-17, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   5.92e-16                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   7.35e-17   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.71606s. Exitflag was 2.
+
+Optimizing t=11.060s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.224335e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   2.42e-13                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.22e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.71226s. Exitflag was 2.
+
+Optimizing t=11.080s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 2.796367e-17, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   6.54e-16                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   2.80e-17   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.69087s. Exitflag was 2.
+
+Optimizing t=11.100s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.145297e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   1.23e-15                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.15e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.68712s. Exitflag was 2.
+
+Optimizing t=11.120s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.245994e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   1.13e-14                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.25e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.70283s. Exitflag was 2.
+
+Optimizing t=11.140s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.358376e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   4.46e-15                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.36e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 1.6249s. Exitflag was 2.
+
+Optimizing t=11.160s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 3.588370e-17, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   2.62e-16                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   3.59e-17   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.81018s. Exitflag was 2.
+
+Optimizing t=11.180s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.459880e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   2.49e-16                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.46e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.71213s. Exitflag was 2.
+
+Optimizing t=11.200s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.495203e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   1.55e-13                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.50e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.69758s. Exitflag was 2.
+
+Optimizing t=11.220s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.994838e-17, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   1.30e-15                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.99e-17   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.69443s. Exitflag was 2.
+
+Optimizing t=11.240s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.698821e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   7.18e-15                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.70e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.71447s. Exitflag was 2.
+
+Optimizing t=11.260s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 4.375964e-17, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   5.81e-15                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   4.38e-17   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.731s. Exitflag was 2.
+
+Optimizing t=11.280s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.723038e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   9.64e-16                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.72e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.72367s. Exitflag was 2.
+
+Optimizing t=11.300s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.658831e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   1.21e-14                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.66e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.77401s. Exitflag was 2.
+
+Optimizing t=11.320s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.604764e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   7.52e-16                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.60e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.77892s. Exitflag was 2.
+
+Optimizing t=11.340s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.561604e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   1.10e-13                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.56e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.68703s. Exitflag was 2.
+
+Optimizing t=11.360s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.513431e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   3.60e-13                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.51e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.68803s. Exitflag was 2.
+
+Optimizing t=11.380s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.437243e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   2.53e-13                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.44e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.70313s. Exitflag was 2.
+
+Optimizing t=11.400s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.363299e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   1.79e-13                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.36e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.7259s. Exitflag was 2.
+
+Optimizing t=11.420s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 2.618496e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   3.57e-13                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   2.62e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.73292s. Exitflag was 2.
+
+Optimizing t=11.440s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.270786e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   1.66e-13                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.27e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.78148s. Exitflag was 2.
+
+Optimizing t=11.460s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.834462e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   3.80e-13                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.83e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.79087s. Exitflag was 2.
+
+Optimizing t=11.480s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 4.769788e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   8.29e-14                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   4.77e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.73186s. Exitflag was 2.
+
+Optimizing t=11.500s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 2.495849e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   5.43e-14                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   2.50e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.75773s. Exitflag was 2.
+
+Optimizing t=11.520s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 2.955106e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   3.41e-16                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   2.96e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.78898s. Exitflag was 2.
+
+Optimizing t=11.540s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 3.453643e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   5.77e-15                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   3.45e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.72621s. Exitflag was 2.
+
+Optimizing t=11.560s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 9.459000e-17, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   2.11e-15                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   9.46e-17   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.70717s. Exitflag was 2.
+
+Optimizing t=11.580s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.058275e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   1.17e-15                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.06e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.72486s. Exitflag was 2.
+
+Optimizing t=11.600s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.663849e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   2.52e-13                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.66e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.70301s. Exitflag was 2.
+
+Optimizing t=11.620s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.489882e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   3.37e-15                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.49e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.6978s. Exitflag was 2.
+
+Optimizing t=11.640s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 6.859275e-17, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   1.35e-13                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   6.86e-17   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.69098s. Exitflag was 2.
+
+Optimizing t=11.660s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 6.706775e-17, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   6.49e-16                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   6.71e-17   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.6997s. Exitflag was 2.
+
+Optimizing t=11.680s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.367011e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   3.92e-13                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.37e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.77969s. Exitflag was 2.
+
+Optimizing t=11.700s
+
+Optimization stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_fminconip','CSHelpWindow');">relative changes in all elements of x</a> are
+less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-08, and the relative maximum constraint
+violation, 1.415520e-16, is less than <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'tol_con','CSHelpWindow');">options.ConstraintTolerance</a> = 1.000000e-04.
+
+Optimization Metric                                           Options
+max(abs(delta_x./x)) =   1.57e-15                       StepTolerance =   1e-08 (selected)
+relative max(constraint violation) =   1.42e-16   ConstraintTolerance =   1e-04 (selected)
+
+This step took 0.71168s. Exitflag was 2.
+Elapsed time is 54.499871 seconds.
