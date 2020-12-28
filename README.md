@@ -4,7 +4,7 @@ This code solves the muscle redundancy problem using static optimization in Matl
 ## Running example code
 Clone the repository and use the MAIN_StaticOptimization.m script to run the code for example walking data. 
 
-To run this code using your own data, you must scale a model and run Inverse Kinematics and Inverse Dynamics. Then change
+To run this code using your own data, you must scale a model and run Inverse Kinematics and Inverse Dynamics. Then change the paths in MAIN_StaticOptimization.m and settings to match your data and desired simulation settings.
 
 ## Functionality
 Like the OpenSim static optimization algorithm, this approach solves for muscle activations at each timestep, however there are several differences.
