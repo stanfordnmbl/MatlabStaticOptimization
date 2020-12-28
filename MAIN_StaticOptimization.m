@@ -7,9 +7,9 @@ function [] = MAIN_StaticOptimizationAPI()
 
 clear all; close all; format compact; clc; fclose all;
 
-% % YOU JUST NEED TO CHANGE THIS baseDir VARIABLE TO POINT TO THE TestData folder
-% % WHEREVER YOU UNZIPPED THE FOLDER, then run code
-baseDir = 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\TestData\' ; % Base Directory
+% % Path to the data and utility functions. No need to change this, unless
+% you rearrange the folder structure, differently from github.
+baseDir = [pwd '\TestData'] ; % Base Directory to base results directory.
 addpath(genpath('Utilities'))
 
 % % % Fill Path names
