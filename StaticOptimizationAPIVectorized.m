@@ -1,3 +1,5 @@
+% Written by Scott Uhlrich, Stanford University. 
+
 function [] = StaticOptimizationAPI(INPUTS) ;
 % This function performs static optimization through the OpenSim API. 
 
