@@ -1,5 +1,8 @@
 # Static Optimization in Matlab
-This code solves the muscle redundancy problem using static optimization in Matlab. Cost and constraing functions can be defined in Matlab using the OpenSim API. Details about the implementation can be found in Uhlrich et al., 2020. TODO: add citation
+This code solves the muscle redundancy problem using static optimization in Matlab. Cost and constraing functions can be defined in Matlab using the OpenSim API. Details about the implementation can be found in Uhlrich et al., 2021.
+
+## Publications
+Uhlrich SD, Jackson RW, Seth A, Kolesar JA, Delp SL, 2021. Muscle coordination retraining inspired by musculoskeletal simulations: a study on reducing joint loading. bioRxiv. doi: https://doi.org/10.1101/2020.12.30.424841. 
 
 ## Running example code
 Clone the repository and use the MAIN_StaticOptimization.m script to run the code for example walking data. 
