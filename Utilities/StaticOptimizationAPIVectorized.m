@@ -563,7 +563,7 @@ nTimeSteps = length(timeVec_sim) ; % Number of iterations through the time loop
 % Sync ID moments matrix to match this time range
 momentsID_sim = interp1(timeID_ML,momentsID,timeVec_sim) ;
 if sum(isnan(momentsID_sim)) >0 ; 
-    error(['Your ID time range does not cover your desired simulation time range. The max ID time is ' num2str (max(timeID_ML)) 'sec.'])
+    error(['Your ID time range does not cover your desired simulation time range. The max ID time is ' num2str(max(timeID_ML)) 'sec.'])
 end
 
 % Set up optimizer parameters that don't change with each timestep

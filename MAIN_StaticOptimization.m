@@ -9,7 +9,7 @@ clear all; close all; format compact; clc; fclose all;
 
 % % Path to the data and utility functions. No need to change this, unless
 % you rearrange the folder structure, differently from github.
-baseDir = [pwd '\TestData'] ; % Base Directory to base results directory.
+baseDir = [pwd '\TestData\'] ; % Base Directory to base results directory.
 addpath(genpath('Utilities'))
 
 % % % Fill Path names
