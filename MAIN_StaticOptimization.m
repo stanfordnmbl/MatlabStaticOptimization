@@ -20,7 +20,7 @@ INPUTS.idFilePath = [baseDir '\results_id.sto'] ; % Full path of IK file
 INPUTS.emgFilePath = [baseDir '\EMG_allMuscles.sto'] ; % location of *.mot file with normalized EMG (if using EMG)
 INPUTS.outputFilePath = [baseDir '\results_SO\'] ; % full path for SO & JRA outputs
 INPUTS.modelDir = [baseDir] ; % full path to folder where model is
-INPUTS.modelName = 'Rajagopal_scaled_sub1_gasAvoid.osim' ; % model file name
+INPUTS.modelName = 'Rajagopal_scaled_Sub1_gasAvoid.osim' ; % model file name
 geometryPath = [baseDir '\Geometry'] ; % full path to geometry folder for Model. If pointing to Geometry folder in OpenSim install, leave this field blank: []
 
 % % % Set time for simulation % % %
