@@ -13,10 +13,10 @@ baseDir = [pwd '\TestData\'] ; % Base Directory to base results directory.
 addpath(genpath('Utilities'))
 
 % % % Fill Path names
-INPUTS.trialname = 'walking_baseline1' ;
+INPUTS.trialname = 'walking_baseline1' ; 
 INPUTS.forceFilePath = [baseDir '\walking_baseline1_forces.mot'] ;  % Full path of forces file
 INPUTS.ikFilePath = [baseDir '\results_ik.sto'] ; % Full path of IK file
-INPUTS.idFilePath = [baseDir '\results_id.sto'] ; % Full path of IK file
+INPUTS.idFilePath = [baseDir '\results_id.sto'] ; % Full path of ID file
 INPUTS.emgFilePath = [baseDir '\EMG_allMuscles.sto'] ; % location of *.mot file with normalized EMG (if using EMG)
 INPUTS.outputFilePath = [baseDir '\results_SO\'] ; % full path for SO & JRA outputs
 INPUTS.modelDir = [baseDir] ; % full path to folder where model is
