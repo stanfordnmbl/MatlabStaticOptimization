@@ -4,9 +4,14 @@ This code solves the muscle redundancy problem using static optimization in Matl
 ## Publications
 Uhlrich SD, Jackson RW, Seth A, Kolesar JA, Delp SL, 2021. Muscle coordination retraining inspired by musculoskeletal simulations: a study on reducing joint loading. bioRxiv. doi: https://doi.org/10.1101/2020.12.30.424841. 
 
-## Running example code
-Clone the repository and use the MAIN_StaticOptimization.m script to run the code for example walking data. 
+## Running demo
+Install the latest version of OpenSim (this code has been tested with OpenSim 4.2), and follow the <a href="https://simtk-confluence.stanford.edu/display/OpenSim/Scripting+with+Matlab">instructoins </a> to set up OpenSim scripting in Matlab.
 
+Clone the repository and use the MAIN_StaticOptimization.m script to run the code to solve for muscle activations for the provided example stance phase of walking. This should take around 50s on a normal desktop computer and produce an interactive plot of muscle activations and reserve actuator controls, shown in Figure 1.
+
+![alt text](http://url/to/img.png)
+
+## Running static optimization on your own data
 To run this code using your own data, you must scale a model and run Inverse Kinematics and Inverse Dynamics. Then change the paths in MAIN_StaticOptimization.m and settings to match your data and desired simulation settings.
 
 ## Functionality
