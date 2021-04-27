@@ -9,7 +9,8 @@ Install the latest version of OpenSim (this code has been tested with OpenSim 4.
 
 Clone the repository and use the MAIN_StaticOptimization.m script to run the code to solve for muscle activations for the provided example stance phase of walking. This should take around 50s on a normal desktop computer and produce an interactive plot of muscle activations and reserve actuator controls, shown in Figure 1.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/stanfordnmbl/MatlabStaticOptimization/blob/main/TestData/activationExampleOutput.jpg)
+Figure 1: Example interactive Matlab figure showing the resulting muscle activations and actuator controls from a stance phase of walking.
 
 ## Running static optimization on your own data
 To run this code using your own data, you must scale a model and run Inverse Kinematics and Inverse Dynamics. Then change the paths in MAIN_StaticOptimization.m and settings to match your data and desired simulation settings.
