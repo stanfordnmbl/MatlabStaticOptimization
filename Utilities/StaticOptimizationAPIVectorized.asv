@@ -488,9 +488,9 @@ if useEmgConstraints
     
     % Append leg indices for both legs if not already added
     newMuscleList = {} ;
-    for i = 1:length(emgConstrainedMuscles)
-        constMusc = emgConstrainedMuscles{i} ;
-        if ~strcmp(constMusc(end-1:end),'_r') && ~strcmp(constMusc(end-1:end),'_l')
+    for i = 1:length(constrainedMuscles)
+        constMusc = emgConstrainedMuscles(i) ;
+        if constMusc(end-1:end) != '_r' || constMusc(end-1:end) != '_l'
             newMuscleList{end+1} = [constMusc '_' leg] ;
             if ~deleteContralateralMuscles
                 newMuscleList{end+1} = [constMusc '_' contraLeg] ;
@@ -502,11 +502,7 @@ if useEmgConstraints
     emgConstrainedMuscles = newMuscleList ;
         
     for i = 1:length(emgConstrainedMuscles)
-        try
-            constrainedMuscleInds_ML(i,1) = strmatch(emgConstrainedMuscles{i},forceNames) ;
-        catch
-            error([emgConstrainedMuscles{i} ' is not in model.'])
-        end
+        constrainedMuscleInds_ML(i,1) = strmatch(constrainedMuscles{i,1},forceNames) ;
     end
     
     % Load EMG *.sto file with EMG for activation ratios
@@ -516,7 +512,7 @@ if useEmgConstraints
     dataEMG = [] ;
     for i = 1:nMuscConstraints
         dcol = ArrayDouble() ;
-        emgName = [emgConstrainedMuscles{i} '_activation'] ;
+        emgName = [emgConstrainedMuscles_leg{i} '_activation'] ;
         if ~strmatch(emgName,emgNames)
             error([emgName ' is not in the EMG.sto file.']) ;
         end
@@ -531,7 +527,7 @@ if useEmgConstraints
     % Compute indicies of coefficient matrix of muscles for constraints
     coeffEmgConstraintInds = zeros(nMuscConstraints,1) ;
     for i = 1:nMuscConstraints
-        coeffEmgConstraintInds(i,1) = strmatch(emgConstrainedMuscles{i},forceNames) ;
+        coeffEmgConstraintInds(i,1) = strmatch(emgConstrainedMuscles{i,1},forceNames) ;
     end
 else
     coeffEmgConstraintInds = [] ;
