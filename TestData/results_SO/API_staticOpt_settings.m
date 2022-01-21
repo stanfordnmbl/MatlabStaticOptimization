@@ -1,26 +1,28 @@
 % Custom static optimization code. Author: Scott Uhlrich, Stanford
-% University, 2020. Please contact suhlrich@stanford.edu for citation
-% information.
+% University, 2020. Please cite:
+% Uhlrich SD, Jackson RW, Seth A, Kolesar JA, Delp SL, 2021. 
+% Muscle coordination retraining inspired by musculoskeletal simulations: a study on reducing joint loading. 
+% bioRxiv. doi: https://doi.org/10.1101/2020.12.30.424841.
 
 function [] = MAIN_StaticOptimizationAPI()
 % This main loop allows you to run StaticOptimizationAPI.m
 
 clear all; close all; format compact; clc; fclose all;
 
-% % YOU JUST NEED TO CHANGE THIS baseDir VARIABLE TO POINT TO THE TestData folder
-% % WHEREVER YOU UNZIPPED THE FOLDER, then run code
-baseDir = 'W:\OA_GaitRetraining\GastrocAvoidance\OpenSim\APIstaticOpt\Github\TestData\' ; % Base Directory
+% % Path to the data and utility functions. No need to change this, unless
+% you rearrange the folder structure, differently from github.
+baseDir = [pwd '\TestData\'] ; % Base Directory to base results directory.
 addpath(genpath('Utilities'))
 
 % % % Fill Path names
-INPUTS.trialname = 'walking_baseline1' ;
+INPUTS.trialname = 'walking_baseline1' ; 
 INPUTS.forceFilePath = [baseDir '\walking_baseline1_forces.mot'] ;  % Full path of forces file
 INPUTS.ikFilePath = [baseDir '\results_ik.sto'] ; % Full path of IK file
-INPUTS.idFilePath = [baseDir '\results_id.sto'] ; % Full path of IK file
+INPUTS.idFilePath = [baseDir '\results_id.sto'] ; % Full path of ID file
 INPUTS.emgFilePath = [baseDir '\EMG_allMuscles.sto'] ; % location of *.mot file with normalized EMG (if using EMG)
 INPUTS.outputFilePath = [baseDir '\results_SO\'] ; % full path for SO & JRA outputs
 INPUTS.modelDir = [baseDir] ; % full path to folder where model is
-INPUTS.modelName = 'Rajagopal_scaled_sub1_gasAvoid.osim' ; % model file name
+INPUTS.modelName = 'Rajagopal_scaled_Sub1_gasAvoid.osim' ; % model file name
 geometryPath = [baseDir '\Geometry'] ; % full path to geometry folder for Model. If pointing to Geometry folder in OpenSim install, leave this field blank: []
 
 % % % Set time for simulation % % %

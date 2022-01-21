@@ -71,6 +71,14 @@ if params.useEmgConstraints
           abs(coeffs(params.coeffEmgConstraintInds) - params.emgConstraints_step') - ineqDif ;
 end
 
+% % Special Case: Sets muscle activations of some muscles equal input EMG
+% with some wiggle room
+if params.useEmgConstraints
+      ineqDif = 0.02 ; % allow this much difference on either side
+      actConstraints(nRatios+nEquals+1:nRatios+nEquals+nConstrained,1) = ...
+          abs(coeffs(params.coeffEmgConstraintInds) - max(params.emgConstraints_step',0)) - ineqDif ;
+end
+
 % % Special Case: Make Sure Actuation of Prescribed Actuators equals ID
 % moment
 
