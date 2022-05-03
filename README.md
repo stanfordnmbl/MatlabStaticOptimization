@@ -7,6 +7,8 @@ Uhlrich SD, Jackson RW, Seth A, Kolesar JA, Delp SL, 2021. Muscle coordination r
 ## Running demo
 Install the latest version of OpenSim (this code has been tested with OpenSim 4.2 and Matlab R2020b), and follow the <a href="https://simtk-confluence.stanford.edu/display/OpenSim/Scripting+with+Matlab">instructoins </a> to set up OpenSim scripting in Matlab.
 
+Running the demo requires MATLAB's Optimization Toolbox and the DPS System or Signal Processing Toolbox. Information about acquiring MATLAB toolboxes can be found on the [MathWorks website](https://www.mathworks.com/products/alphabetical.html). 
+
 Clone the repository and use the MAIN_StaticOptimization.m script to run the code to solve for muscle activations for the provided example stance phase of walking. This should take around 50s on a normal desktop computer and produce an interactive plot of muscle activations and reserve actuator controls, shown in Figure 1.
 
 ![alt text](https://github.com/stanfordnmbl/MatlabStaticOptimization/blob/main/TestData/activationExampleOutput.jpg)
