@@ -63,14 +63,6 @@ if params.useEqualMuscles
           coeffs(params.equalMuscleInds_ML(:,1)))') - ineqDif ;
 end
 
-% % Special Case: Sets muscle activations of some muscles equal to each
-% other with some wiggle room
-if params.useEmgConstraints
-      ineqDif = 0.02 ; % allow this much difference on either side
-      actConstraints(nRatios+nEquals+1:nRatios+nEquals+nConstrained,1) = ...
-          abs(coeffs(params.coeffEmgConstraintInds) - params.emgConstraints_step') - ineqDif ;
-end
-
 % % Special Case: Sets muscle activations of some muscles equal input EMG
 % with some wiggle room
 if params.useEmgConstraints
