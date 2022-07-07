@@ -1,6 +1,6 @@
 % Custom static optimization code. Author: Scott Uhlrich, Stanford
 % University, 2020. Please cite:
-% Uhlrich, S.D., Jackson, R.W., Seth, A. et al. Muscle coordination retraining 
+% Uhlrich, S.D., Jackson, R.W., Seth, A., Delp S.L. Muscle coordination retraining 
 % inspired by musculoskeletal simulations reduces knee contact force. 
 % Sci Rep 12, 9842 (2022). https://doi.org/10.1038/s41598-022-13386-9
 
