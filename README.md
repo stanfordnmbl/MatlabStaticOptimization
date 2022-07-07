@@ -7,7 +7,7 @@ Please cite this paper if you use this code in your work:
 Uhlrich SD, Jackson RW, Seth A, Kolesar JA, Delp SL, 2022. Muscle coordination retraining inspired by musculoskeletal simulations reduces knee contact force. *Scientific Reports* __12__, 9842. https://doi.org/10.1038/s41598-022-13386-9.  
 
 ## Running demo
-Install the latest version of OpenSim (this code has been tested with OpenSim 4.2 and Matlab R2020b), and follow the <a href="https://simtk-confluence.stanford.edu/display/OpenSim/Scripting+with+Matlab">instructoins </a> to set up OpenSim scripting in Matlab.
+Install the latest version of OpenSim (this code has been tested with OpenSim 4.2 and Matlab R2020b), and follow the <a href="https://simtk-confluence.stanford.edu/display/OpenSim/Scripting+with+Matlab">instructions </a> to set up OpenSim scripting in Matlab.
 
 Running the demo requires MATLAB's Optimization Toolbox and the DPS System or Signal Processing Toolbox. Information about acquiring MATLAB toolboxes can be found on the [MathWorks website](https://www.mathworks.com/products/alphabetical.html). 
 
