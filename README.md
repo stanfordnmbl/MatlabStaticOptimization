@@ -1,5 +1,5 @@
 # Static Optimization in Matlab
-This code solves the muscle redundancy problem using static optimization in Matlab. Cost and constraint functions can be defined in Matlab using the OpenSim API. Details about the implementation can be found in Uhlrich et al., 2021.
+This code solves the muscle redundancy problem using static optimization in Matlab. Cost and constraint functions can be defined in Matlab using the OpenSim API. For example, you can track muscle activations from electromyography. Details about the implementation can be found in Uhlrich et al., 2021.
 
 ## Publications
 Please cite this paper if you use this code in your work:
